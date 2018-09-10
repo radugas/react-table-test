@@ -41,7 +41,7 @@ class App extends Component {
 
     return (
       <div>
-        <h2>Выберете данные для загрузки.</h2>
+        <h2>Выберите данные для загрузки.</h2>
         <Button chooseData={this.chooseData} value={smallData} title={smallData} loadData={this.handleDataLoad} />
         <Button chooseData={this.chooseData} value={bigData} title={bigData} loadData={this.handleDataLoad} />
         {this.state.isLoading && <Popover/> }
